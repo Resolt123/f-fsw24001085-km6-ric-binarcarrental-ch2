@@ -1,0 +1,82 @@
+#label {
+  font-size: 0.9em;
+}
+
+input {
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 2px;
+  background-color: white;
+  width: 13em;
+  height: 2.5em;
+  padding: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+select {
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 2px;
+  background-color: white;
+  width: 13em;
+  height: 2.5em;
+  padding: 7px;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid green;
+}
+select:focus {
+  border: 2px solid green;
+}
+
+input#Jumlah-Penumpang {
+  background-image: url("../images/person.png");
+  background-position: 95%;
+  background-repeat: no-repeat;
+}
+
+select#tipe-driver {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  background-image: url("../images/down.png");
+  background-position: 95%;
+  background-repeat: no-repeat;
+}
+select#tipe-driver:focus {
+  background-image: url("../images/up.png");
+  background-position: 95%;
+  background-repeat: no-repeat;
+}
+
+select#waktu {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  background-image: url("../images/fi_clock.png");
+  background-position: 95%;
+  background-repeat: no-repeat;
+}
+select#waktu:focus {
+  background-image: url("../images/up.png");
+  background-position: 95%;
+  background-repeat: no-repeat;
+}
+
+.select-items div,
+.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
+}
